@@ -1,0 +1,104 @@
+# ============================
+# 📌 Unity 자동 생성 폴더 (올리면 안 됨)
+# - Unity가 자동으로 다시 생성하는 캐시/빌드 데이터
+# - 깃허브에 올리면 용량 낭비 + 불필요한 충돌 발생
+# ============================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# 패키지 캐시 (자동 생성)
+[Ll]ibrary/[Pp]ackageCache/
+
+# ============================
+# 📌 대용량 파일 (자동 생성 / 용량 낭비 방지)
+# ============================
+# 메모리 캡처 파일 (크고 민감한 정보 포함 가능)
+[Mm]emoryCaptures/
+# Unity 녹화 파일
+[Rr]ecordings/
+
+# ============================
+# 📌 에셋 스토어 관련 (필요 없으면 제외)
+# - AssetStoreTools 플러그인은 드라이브에서 관리
+# ============================
+[Aa]ssets/AssetStoreTools*
+
+# ============================
+# 📌 IDE(개발툴) 관련 설정 파일
+# - 개인 개발 환경에 따라 다르므로 공유 불필요
+# ============================
+# Visual Studio 캐시
+.vs/
+# VSCode 개인 설정
+.vscode/
+# Gradle 캐시
+.gradle/
+ExportedObj/
+.consulo/
+
+# Visual Studio & C# 자동 생성 프로젝트 파일
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ============================
+# 📌 Unity 충돌/자동 생성 파일
+# ============================
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+# Unity 충돌 리포트 파일
+sysinfo.txt
+
+# ============================
+# 📌 완성된 빌드 파일 (드라이브에 올릴 것)
+# - 게임 빌드(.apk, .exe 등)는 깃허브 X → 구글 드라이브에 업로드
+# ============================
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.exe
+
+# ============================
+# 📌 Crashlytics (에러 리포트용, 불필요)
+# ============================
+crashlytics-build.properties
+
+# ============================
+# 📌 Addressables (자동 생성 데이터)
+# ============================
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa]ssets/[Ss]treamingAssets/aa.meta
+[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ============================
+# 📌 문서들
+# ============================
+# 구글 드라이브 동기화 폴더 제외
+[Gg]oogleDrive/
+# 학회 문서 (PDF, 발표자료)
+*.pdf
+# 학회 문서 (한글파일)
+*.hwp
+# 테스트용 임시 폴더
+[Tt]est/
+# 실험용 임시 폴더
+[Ee]xperiment/
